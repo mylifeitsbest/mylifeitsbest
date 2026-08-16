@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,15,24&height=180&section=header&text=Roman%20•%20mylifeitsbest&fontSize=38&fontColor=F8D800&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,15,24&height=180&section=header&text=mylifeitsbest&fontSize=42&fontColor=F8D800&animation=fadeIn" width="100%"/>
 
   <a href="https://t.me/nushpo">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=F8D800&center=true&vCenter=true&width=620&lines=Python+%26+Backend+Developer;Telegram+Mini+Apps+%26+Async+Bots;Building+Robust+Microservices+%26+SPAs" alt="Typing SVG" />
@@ -22,7 +22,7 @@
 
 ### 👨‍💻 Обо мне
 
-Я — **Роман (mylifeitsbest)**, бэкенд-разработчик из России, специализирующийся на **экосистеме Telegram, асинхронных микросервисах и отказоустойчивых REST API**.
+Я — **mylifeitsbest**, бэкенд-разработчик из России, специализирующийся на **экосистеме Telegram, асинхронных микросервисах и отказоустойчивых REST API**.
 
 * **Мой фокус:** Разработка интерактивных Telegram Mini Apps (TMA), асинхронных ботов и масштабируемых веб-сервисов.
 * **Главные принципы:** Чистая архитектура (Services Layer), надежность при высоких нагрузках (предотвращение Race Conditions), асинхронность и интуитивный минималистичный UI.
