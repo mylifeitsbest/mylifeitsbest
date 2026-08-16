@@ -122,15 +122,14 @@
 ### 📬 Контакты
 
 <div align="center">
-  <a href="https://t.me/nushpo">
-    <img src="https://img.shields.io/badge/Telegram-@nushpo-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+  <a href="https://t.me/nushpo" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-@nushpo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
-  &nbsp;&nbsp;
-  <a href="mailto:romaruhman1806@gmail.com">
-    <img src="https://img.shields.io/badge/Email-romaruhman1806@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+  <a href="mailto:romaruhman1806@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-romaruhman1806@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 
   <br/><br/>
 
-  <img src="https://komarev.com/ghpvc/?username=mylifeitsbest&color=yellow&style=flat-square&label=Просмотры+профиля" alt="Просмотры профиля" />
+  <img src="https://komarev.com/ghpvc/?username=mylifeitsbest&color=yellow&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
