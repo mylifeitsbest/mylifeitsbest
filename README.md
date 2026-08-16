@@ -91,9 +91,8 @@
 
 ### 📬 Как со мной связаться
 
-*   **Telegram:** [@ваш_юзернейм] <!-- Обязательно замените на ваш реальный Telegram-юзернейм -->
-*   **Email:** [ваша_почта@example.com]
-*   **LinkedIn:** [ссылка_на_профиль]
+*   **Telegram:** @nushpo <!-- Обязательно замените на ваш реальный Telegram-юзернейм -->
+*   **Email:** romaruhman1806@gmail.com
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=mylifeitsbest&color=yellow&style=flat-square&label=Просмотры+профиля" alt="Просмотры профиля" />
