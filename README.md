@@ -1,5 +1,6 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=F8D800&center=true&vCenter=true&width=500&lines=Привет%2C+я+mylifeitsbest!+👋;Fullstack+&+Telegram+Developer;Building+Next-Gen+WebApps;" alt="Typing SVG" />
+<div align="center\">
+  <!-- Анимированное приветствие в желтом цвете -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=F8D800&center=true&vCenter=true&width=600&lines=Привет%2C+я+Роман+(mylifeitsbest)!+👋;Бэкенд-разработчик+и+Telegram+TMA;Пишу+на+Python%2C+FastAPI+и+Vue+3;Building+robust+asynchronous+systems;" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -8,15 +9,16 @@
   </a>
 </p>
 
----
+---\n
 
-### 🌟 Обо мне
+### 👨‍💻 Обо мне
 
-Я — **Fullstack-разработчик**, специализирующийся на создании асинхронных решений, Telegram-ботов, высоконагруженных REST API и современных веб-приложений (SPA & Telegram Mini Apps).
+Я — **Роман (mylifeitsbest)**, бэкенд-разработчик из России, специализирующийся на **экосистеме Telegram, асинхронных микросервисах и отказоустойчивых REST API**.
 
-Моя цель — соединять сложную бэкенд-логику с интуитивно понятным, динамичным пользовательским интерфейсом.
+*   **Мой фокус:** Разработка интерактивных Telegram Mini Apps (TMA), асинхронных ботов и масштабируемых веб-сервисов.
+*   **Главные принципы:** Чистая архитектура (Services Layer), надежность при высоких нагрузках (предотвращение Race Conditions), асинхронность и интуитивный минималистичный UI.
 
----
+---\n
 
 ### 🛠 Мой технологический стек
 
@@ -24,57 +26,76 @@
 
   <!-- Backend -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-316194?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 
   <br/>
 
   <!-- Frontend & WebApps -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vue_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
   <br/>
 
   <!-- Tools & Automation -->
   <img src="https://img.shields.io/badge/Telegram_API-26A69A?style=for-the-badge&logo=telegram&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Pinia-orange?style=for-the-badge&logo=pinia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
 
 </div>
 
----
+---\n
 
 ### 🚀 Избранные проекты
 
-Вот ключевые проекты, отражающие мой опыт в разных сферах разработки:
+#### 👥 [TG Support System](https://github.com/mylifeitsbest/tg-support-system)
+*Асинхронная монорепозиторная система поддержки пользователей Telegram: клиент общается с ботом, а оператор отвечает через интерактивный WebApp.*
+*   **Стек:** FastAPI, SQLAlchemy, SQLite, aiogram 3, Vue 3, Tailwind CSS.
+*   **Особенности:**
+    *   HMAC-SHA256 авторизация Telegram `initData` на бэкенде.
+    *   Реализована конкурентная механика захвата чатов (Claim/Lock) с защитой от двойного ответа (409 Conflict).
+    *   Покрытие E2E- и Smoke-тестами критических путей.
 
-#### 🎮 [Telegram WebApp Casino Case Opener](https://github.com/mylifeitsbest/Telegram-WebApp-Casino-Case-Opener)
-*Интерактивное веб-приложение (симулятор открытия кейсов), глубоко интегрированное в мессенджер Telegram.*
-*   **Стек:** React, TypeScript, Telegram WebApps API, Tailwind CSS.
-*   **Особенности:** Плавные анимации открытия кейсов, оптимизация под мобильные экраны внутри Telegram-клиента.
+#### 🛍 [WB Tech Internship: REST API интернет-магазина](https://github.com/mylifeitsbest/WB-Tech-Internship-REST-API---Django)
+*Тестовый REST API сервис интернет-магазина с JWT-авторизацией, защищенной транзакционной системой заказов и контролем склада.*
+*   **Стек:** Python 3.11+, Django, Django REST Framework (DRF), PostgreSQL (Django ORM), Swagger (drf-spectacular), Docker.
+*   **Особенности:**
+    *   Выделен слой сервисов (Services Layer, `services.py`) для изоляции бизнес-логики от вьюх.
+    *   Защита от Race Conditions при покупках с помощью `@transaction.atomic` и блокировки строк БД `select_for_update()`.
+    *   Потоковое логирование транзакций в файл `orders.log`.
 
-#### 💼 [Account Manager SPA](https://github.com/mylifeitsbest/Account-Manager-SPA)
-*Современное одностраничное приложение для управления учетными записями.*
-*   **Стек:** React, Node.js, REST API, Tailwind CSS.
-*   **Особенности:** Интуитивный интерфейс, чистый стейт-менеджмент, адаптивный дизайн.
+#### 🎰 [Telegram WebApp Casino & Case Opener](https://github.com/mylifeitsbest/Telegram-WebApp-Casino-Case-Opener)
+*Игровой Telegram-бот со встроенными адаптивными Mini Apps для открытия кейсов и крафта.*
+*   **Стек:** Python, pyTelegramBotAPI (telebot), HTML5, CSS3, Pure JavaScript, JSON-хранилище.
+*   **Особенности:**
+    *   Интегрированный WebApp «Кейсы» с плавной JS-анимацией прокрутки лута разной редкости.
+    *   WebApp «Апгрейд» с динамическим шансом успеха и колесом фортуны.
+    *   Синхронизация баланса и инвентаря в реальном времени по WebApp API.
 
-#### 🔐 [WB Tech Internship REST API](https://github.com/mylifeitsbest/WB-Tech-Internship-REST-API---Django)
-*Масштабируемый и надежный бэкенд, разработанный в рамках технической стажировки.*
-*   **Стек:** Python, Django, Django REST Framework, PostgreSQL.
-*   **Особенности:** Проектирование чистой архитектуры баз данных, оптимизация SQL-запросов, полное покрытие тестами.
+#### 💼 [Account Manager (SPA)](https://github.com/mylifeitsbest/Account-Manager-SPA)
+*Удобное Single Page Application для реактивного создания, валидации и управления учетными записями пользователей.*
+*   **Стек:** Vue 3 (Composition API, `<script setup>`), Pinia, TypeScript, Vite.
+*   **Особенности:**
+    *   Реактивная валидация обязательных полей на событии `@blur` с визуальной подсветкой ошибок.
+    *   Условный рендеринг и сброс полей в зависимости от типа аккаунта (Local / LDAP).
+    *   Синхронизация с `localStorage` для персистентности данных при перезагрузке.
 
-#### 🤖 [tg-support-system](https://github.com/mylifeitsbest/tg-support-system) & [AnonAsk-Bot](https://github.com/mylifeitsbest/AnonAsk-Bot)
-*Системы автоматизации поддержки и интерактивного асинхронного общения в Telegram.*
-*   **Стек:** Python, Asyncio, aiogram / python-telegram-bot.
-*   **Особенности:** Обработка очередей сообщений, высокая отказоустойчивость, асинхронная архитектура.
+#### 🔐 [AnonAsk-Bot](https://github.com/mylifeitsbest/AnonAsk-Bot)
+*Анонимный бот вопросов и ответов в Telegram с генерацией реферальных ссылок.*
+*   **Стек:** Python 3.x, pyTelegramBotAPI (telebot).
+*   **Особенности:**
+    *   Уникальная система ответов на анонимные сообщения в один клик через инлайн-кнопки.
+    *   Ограничение времени жизни диалогов (TTL 24 часа) с автоматической очисткой устаревших сессий в фоне через `threading`.
 
----
+---\n
 
-### 📊 Моя активность на GitHub
+### 📊 Моя статистика GitHub
 
 <div align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=mylifeitsbest&show_icons=true&theme=dark&bg_color=0D1117&title_color=F8D800&icon_color=F8D800&text_color=FFFFFF" />
@@ -87,12 +108,12 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mylifeitsbest&theme=dark&background=0D1117&fire=F8D800&ring=F8D800&currStreakNum=F8D800&sideNums=FFFFFF&sideLabels=FFFFFF" />
 </div>
 
----
+---\n
 
-### 📬 Как со мной связаться
+### 📬 Контакты
 
-*   **Telegram:** @nushpo <!-- Обязательно замените на ваш реальный Telegram-юзернейм -->
-*   **Email:** romaruhman1806@gmail.com
+*   **Telegram:** [@ваша_ссылка]
+*   **Email:** [ваша_почта@example.com]
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=mylifeitsbest&color=yellow&style=flat-square&label=Просмотры+профиля" alt="Просмотры профиля" />
